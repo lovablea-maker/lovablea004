@@ -90,6 +90,92 @@ const Lovable = () => {
         </section>
 
         <section>
+          <h2 className="text-2xl font-semibold mb-4 text-foreground">一天完整學習路徑</h2>
+          <p className="text-muted-foreground mb-6">
+            從理論到實戰，循序漸進掌握 Vibe Coding × 自動化 × AI Agent 協同任務
+          </p>
+
+          <div className="space-y-4">
+            <div className="p-6 rounded-xl bg-gradient-to-br from-muted/30 to-muted/50 border border-border hover:border-primary/50 transition-colors">
+              <div className="flex items-center gap-4 mb-3">
+                <span className="text-lg font-bold text-primary">9:30 - 10:30</span>
+                <span className="h-px flex-1 bg-border"></span>
+              </div>
+              <h3 className="text-lg font-semibold text-foreground mb-2">Vibe Coding 思維導入</h3>
+              <p className="text-muted-foreground leading-relaxed">
+                了解 Vibe Coding 的核心概念與應用場景，探索如何結合 Lovable、Make/n8n 與 Dify 打造無敵網站。
+              </p>
+            </div>
+
+            <div className="p-6 rounded-xl bg-gradient-to-br from-muted/30 to-muted/50 border border-border hover:border-primary/50 transition-colors">
+              <div className="flex items-center gap-4 mb-3">
+                <span className="text-lg font-bold text-primary">10:30 - 11:30</span>
+                <span className="h-px flex-1 bg-border"></span>
+              </div>
+              <h3 className="text-lg font-semibold text-foreground mb-2">Lovable 進階功能實戰</h3>
+              <p className="text-muted-foreground leading-relaxed">
+                深入學習 Lovable 的進階設定、元件系統和互動設計，掌握自定義模板與品牌風格設定。
+              </p>
+            </div>
+
+            <div className="p-6 rounded-xl bg-gradient-to-br from-muted/30 to-muted/50 border border-border hover:border-primary/50 transition-colors">
+              <div className="flex items-center gap-4 mb-3">
+                <span className="text-lg font-bold text-primary">11:30 - 12:30</span>
+                <span className="h-px flex-1 bg-border"></span>
+              </div>
+              <h3 className="text-lg font-semibold text-foreground mb-2">Credits 獲取秘技解析</h3>
+              <p className="text-muted-foreground leading-relaxed">
+                獨家公開 Lovable 每天免費獲得 100 個 credits 的秘技，學習如何優化 credits 使用效率。
+              </p>
+            </div>
+
+            <div className="p-6 rounded-xl bg-gradient-to-br from-accent/20 to-accent/30 border border-accent/30">
+              <div className="flex items-center gap-4 mb-3">
+                <span className="text-lg font-bold text-accent-foreground">12:30 - 13:30</span>
+                <span className="h-px flex-1 bg-border"></span>
+              </div>
+              <h3 className="text-lg font-semibold text-foreground mb-2">午餐休息時間</h3>
+              <p className="text-muted-foreground leading-relaxed">
+                享用精緻午餐，與講師和其他學員交流分享心得與經驗。
+              </p>
+            </div>
+
+            <div className="p-6 rounded-xl bg-gradient-to-br from-muted/30 to-muted/50 border border-border hover:border-primary/50 transition-colors">
+              <div className="flex items-center gap-4 mb-3">
+                <span className="text-lg font-bold text-primary">13:30 - 14:30</span>
+                <span className="h-px flex-1 bg-border"></span>
+              </div>
+              <h3 className="text-lg font-semibold text-foreground mb-2">Make/n8n 自動化流程設計</h3>
+              <p className="text-muted-foreground leading-relaxed">
+                學習設計 Make/n8n 自動化工作流程，實現資料處理、表單提交、用戶追蹤等功能。
+              </p>
+            </div>
+
+            <div className="p-6 rounded-xl bg-gradient-to-br from-muted/30 to-muted/50 border border-border hover:border-primary/50 transition-colors">
+              <div className="flex items-center gap-4 mb-3">
+                <span className="text-lg font-bold text-primary">14:30 - 15:30</span>
+                <span className="h-px flex-1 bg-border"></span>
+              </div>
+              <h3 className="text-lg font-semibold text-foreground mb-2">Dify AI Agent 創建與配置</h3>
+              <p className="text-muted-foreground leading-relaxed">
+                使用 Dify 平台創建智能 AI Agent，為網站增加智能客服、內容推薦等功能。
+              </p>
+            </div>
+
+            <div className="p-6 rounded-xl bg-gradient-to-br from-muted/30 to-muted/50 border border-border hover:border-primary/50 transition-colors">
+              <div className="flex items-center gap-4 mb-3">
+                <span className="text-lg font-bold text-primary">15:30 - 16:30</span>
+                <span className="h-px flex-1 bg-border"></span>
+              </div>
+              <h3 className="text-lg font-semibold text-foreground mb-2">整合實作與成果發表</h3>
+              <p className="text-muted-foreground leading-relaxed">
+                將所學技能整合應用，完成個人專案實作，並進行成果展示與講師點評。
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section>
           <h2 className="text-2xl font-semibold mb-4 text-foreground">你是否正在面對這些困境？</h2>
           <p className="text-muted-foreground mb-6">
             如果你有以下任何一個困擾，這堂課將徹底改變你的工作方式
