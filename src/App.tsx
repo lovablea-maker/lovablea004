@@ -8,6 +8,7 @@ import { AppSidebar } from "@/components/AppSidebar";
 import { LanguageProvider } from "@/contexts/LanguageContext";
 import Index from "./pages/Index";
 import Postly from "./pages/Postly";
+import Lovable from "./pages/Lovable";
 import Assistant from "./pages/Assistant";
 import Quest from "./pages/Quest";
 import Basic from "./pages/Basic";
@@ -38,6 +39,7 @@ const App = () => (
                     </header>
                     <Routes>
                       <Route path="/postly" element={<Postly />} />
+                      <Route path="/lovable" element={<Lovable />} />
                       <Route path="/assistant" element={<Assistant />} />
                       <Route path="/quest" element={<Quest />} />
                       <Route path="/basic" element={<Basic />} />

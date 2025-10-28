@@ -12,6 +12,7 @@ import {
 
 const courses = [
   { title: "特殊課 - Postly", url: "/postly", icon: BookOpen },
+  { title: "特殊課 - Lovable", url: "/lovable", icon: BookOpen },
   { title: "特殊課 - 個人助理", url: "/assistant", icon: User },
   { title: "一日課 - 道之求索", url: "/quest", icon: Compass },
   { title: "基礎班 - 工作流程", url: "/basic", icon: Workflow },
