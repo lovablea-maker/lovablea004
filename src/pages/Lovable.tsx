@@ -32,6 +32,55 @@ const Lovable = () => {
           </a>
         </section>
 
+        <section>
+          <h2 className="text-2xl font-semibold mb-4 text-foreground">解決方案：Lovable 是什麼？</h2>
+          <p className="text-xl font-medium text-primary mb-4">你的全能網站自動化建構系統</p>
+          <p className="text-muted-foreground leading-relaxed mb-6">
+            Lovable 是一個革命性的網站生成平台，讓任何人都能在幾分鐘內創建專業級網站。結合 Make/n8n 的自動化能力，以及 Dify 的 AI 智能功能，打造真正的無敵網站生態系統。
+          </p>
+
+          <div className="p-6 rounded-xl bg-gradient-to-br from-primary/10 to-accent/10 border border-primary/20 mb-6">
+            <h3 className="text-lg font-semibold text-foreground mb-3 flex items-center gap-2">
+              🏗️ Lovable 核心架構
+            </h3>
+            <div className="text-center py-4">
+              <p className="text-muted-foreground font-medium">
+                Lovable 網站生成器 → Make/n8n 自動化引擎 → Dify AI 互動層
+              </p>
+            </div>
+            <p className="text-muted-foreground text-center">
+              從網站設計、自動化流程到智能交互，一站式解決所有數位化需求
+            </p>
+          </div>
+
+          <h3 className="text-xl font-semibold mb-4 text-foreground">三大核心優勢</h3>
+          <div className="grid gap-6 md:grid-cols-3">
+            <div className="p-6 rounded-xl bg-gradient-to-br from-muted/30 to-muted/50 border border-border">
+              <div className="text-3xl mb-3">💰</div>
+              <h4 className="text-lg font-semibold text-foreground mb-3">免費獲取 Credits</h4>
+              <p className="text-muted-foreground leading-relaxed">
+                本課程獨家公開！每天免費獲得 100 個 credits 的祕技，一個月就能省下數萬元開發成本。
+              </p>
+            </div>
+
+            <div className="p-6 rounded-xl bg-gradient-to-br from-muted/30 to-muted/50 border border-border">
+              <div className="text-3xl mb-3">🔄</div>
+              <h4 className="text-lg font-semibold text-foreground mb-3">全流程整合</h4>
+              <p className="text-muted-foreground leading-relaxed">
+                從前端視覺設計到後端資料處理，從自動化工作流程到 AI 智慧互動，打造一條龍服務的完整網站。
+              </p>
+            </div>
+
+            <div className="p-6 rounded-xl bg-gradient-to-br from-muted/30 to-muted/50 border border-border">
+              <div className="text-3xl mb-3">🚀</div>
+              <h4 className="text-lg font-semibold text-foreground mb-3">零程式碼部署</h4>
+              <p className="text-muted-foreground leading-relaxed">
+                無需任何程式基礎，使用視覺化介面和拖拉方式即可完成網站從設計到上線的全部流程。
+              </p>
+            </div>
+          </div>
+        </section>
+
         <section id="course-intro">
           <h2 className="text-2xl font-semibold mb-4 text-foreground">課程介紹</h2>
           <p className="text-muted-foreground leading-relaxed">
